@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(17, 31, 142);
+    color: rgb(255, 255, 255);
+    margin: 50px;
+    text-align: center;
+}
+#text-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    outline: none;
+
+}
+#check-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    background-color:#333;
+    color : white;
+    border-radius: 5px;
+}
+
+#check-btn:hover {
+background-color: #555;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.palindrome-definition-div {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #68aa16;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+.palindrome-def {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+.highlighted-word{
+    color: red;
+    font-weight: bold;
+}
